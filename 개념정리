@@ -1,1 +1,23 @@
-ㅎㅎ
+스프링에서 자주 사용되는 디자인 패턴
+    자바의 객체지향스러운 특징(캡슐화/상속/추상화/다형성)을 이용해서  객체지향스럽게 설계(SOLID)하는
+    실제 현장에서 쓰이고 효율적인 설계방식들을 메뉴얼화 한 것이 디자인패턴이다.
+    요리(자바 웹어플리케이션) : 요리도구(캡/상/추/다) : 요리도구의 사용법(SOLID) : 요리레시피(디자인패턴) 
+
+1. Adapter Pattern
+    
+
+2. Proxy Pattern
+
+3. Decorator Pattern
+
+4. Singleton Pattern
+
+5. Template Method Pattern
+
+6. Factory Method Pattern
+
+7. Strategy Pattern
+
+8. Template Callback Pattern
+
+9. etc.. Pattern
