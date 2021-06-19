@@ -4,10 +4,13 @@
     요리(자바 웹어플리케이션) : 요리도구(캡/상/추/다) : 요리도구의 사용법(SOLID) : 요리레시피(디자인패턴) 
 
 1. Adapter Pattern
-    서로 다른 두 인터페이스 사이에 통신이 가능하게 하는 느낌 전에 JDBC 예제 그런거
+    서로 다른 두 인터페이스 사이에 통신이 가능하게 하는 느낌 전에 JDBC 같은 케이스 OCP를 활용한 디자인패턴
+    ServiceA.runServiceA() / ServiceB.runServiceB() 각각 메소드 이름이 다른 것을
+    AdapterServiceA 클래스에서 ServiceA를 생성함으로써 각각 AdapterServiceA.runService() 같은 메소드명으로 호출
+    AdapterServiceA, AdapterServiceB 까지도 AdapterService로 추상화하는 것 까지도 가능하지만 우선은 생략! 
 
 2. Proxy Pattern
-
+    
 3. Decorator Pattern
 
 4. Singleton Pattern
